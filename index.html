@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+   
+    <div class="quiz-container">
+      <div>
+        <form action="" id="form1">
+          <label for="customerName">Enter your Name</label><br>
+          <div class="input1">
+            <input  id="name"><br>
+          </div>
+         <div class="btn-sty">
+          <button  type="button" value="Submit" id="sdata" >Submit</button>
+         </div>
+        </form>
+      </div>
+      <div id="quiztitle">
+        <h2 id="title" class="c2">welcome to quiz</h2>
+        <div class="btn-sty">
+        <button type="button" class="bttn1" id="continue">Continue</button>
+      </div>
+      </div>
+      <div class="quiz-header"  id="quiz">
+        <h2 id="question">Question is loading...</h2>
+        <ul>
+          <li>
+            <input type="radio"  name="answer" id="a" class="answer" value="a"/>
+            <label for="a" id="a_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio"  name="answer" id="b" class="answer" value="b" />
+            <label for="b" id="b_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" value="c" />
+            <label for="c" id="c_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" value="d" />
+            <label for="d" id="d_text">Answer...</label>
+          </li>
+        </ul>
+      </div>
+      <div class="btn" id="btn-2">
+        <button id="pre" type="button">Prev</button>
+        <button id="next" type="button">Next</button>
+      </div>
+    <div id="showscore" class="showArea"></div>
+      
+    </div>
+    <script src="js/quizGame.js"></script>
+  </body>
+</html>
